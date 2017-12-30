@@ -73,12 +73,12 @@ import { NbAuthResult } from '../services/auth.service';
 export class NbFirebaseAuthProvider extends NbAbstractAuthProvider {
   protected defaultConfig = {
     firebase: {
-      apiKey: 'your firebase api key',
-      authDomain: 'your firebase auth domain',
-      databaseURL: 'your firebase database url',
-      projectId: 'your firebase project id',
-      storageBucket: 'your firebase storage bucket',
-      messagingSenderId: 'your firebase messaging sender id',
+      apiKey: 'AIzaSyBv06sSDwGgm_3RVI4kJYMHpRZicJYPxrs',
+      authDomain: 'et-admin.firebaseapp.com',
+      databaseURL: 'https://et-admin.firebaseio.com',
+      projectId: 'et-admin',
+      storageBucket: 'et-admin.appspot.com',
+      messagingSenderId: '413635627740',
     },
     login: {
       redirect: {
